@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    padding: 40px;
+}
+form{
+    background-color: #d8d8d8;
+    padding: 30px;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+input[type="text"]{
+    width: 80%;
+    height: 50px;
+    border: none;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    font-size: 23px;
+    padding: 10px;
+}
+input[type="submit"]{
+    width: 16%;
+    height: 48px;
+    margin-left: 2%;
+    border: none;
+    background-color: rgb(235, 29, 14);
+    border-radius: 7px;
+    font-size: 17px;
+    color: white;
+    font-weight: 600;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    cursor: pointer;
+}
+.body{
+    background-color: #d8d8d8;
+    padding: 30px;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    margin-top: 40px;
+}
+.body div{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 7px 15px;
+    align-items: center;
+    border-radius: 7px;
+    height: 50px;
+    
+}
+.body div:not(:last-child){
+    margin-bottom: 25px;
+}
+.body button{
+    border: none;
+     background-color: rgb(235, 29, 14);
+    border-radius: 7px;
+    font-size: 14px;
+    color: white;
+    font-weight: 600;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    cursor: pointer;
+    width: 75px;
+    height: 30px;
+    
+}
+.body p {
+    margin: 0px ;
+    font-size: 20px;
+}
